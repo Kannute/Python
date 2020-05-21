@@ -1,0 +1,38 @@
+
+    1.Proszę napisać funkcję sprawdzającą czy elementy listy tworzą trójkę (a2+b2=c2)/czwórkę(a2+b2+c2=d2) 
+	pitagorejską (funkcja ma działać dla dowolnej długości "podciągu"!). 
+	Proszę zgłosić wyjątek w przypadku niepoprawnej długości listy oraz w przypadku, 
+	gdy lista nie zawiera żadnych trójek/czwórek pitagorejskich. Dla każdej trójki/czwórki 
+	proszę sprawdzić ile jest w niej wartości parzystych i nieparzystych (3p).
+
+    Listy testowe:
+    l=(1,2,2,3,2,3,6,7,1,4,8,9,4,4,7,9,2,6,9,13,6,6,7,11,3,4,12,13,2,5,14,15,2,10,11,15,1,12,12,17,8,9,12,17,
+	1,6,18,19,6,6,17,19,6,10,15,21,4,5,20,21,4,8,19,21,4,13,16,21,8,11,16,21,3,6,22,23,3,13,18,23,6,13,18,
+	23,9,14,20,25,12,15,16,25,2,7,26,27,2,10,25,27,2,14,23,27,7,14,22,27,10,10,23,27,3,16,24,29,11,12,24,
+	29,12,16,21,29,2)
+    l=(1,2,2,3,2,3,6,7,1,4,8,9,4,4,7,9,2,6,9,13,6,6,7,11,3,4,12,13,2,5,14,15,2,10,11,15,1,12,12,17,8,9,12,17,1
+	,6,18,19,6,6,17,19,6,10,15,21,4,5,20,21,4,8,19,21,4,13,16,21,8,11,16,21,3,6,22,23,3,13,18,23,6,13,18,23,
+	9,14,20,25,12,15,16,25,2,7,26,27,2,10,25,27,2,14,23,27,7,14,22,27,10,10,23,27,3,16,24,29,11,12,24,29,12,
+	16,21,29)
+
+    l=(3,4,5,5,12,13,7,24,25,9,40,41,6,8,10,60,80,100,18,24,30,15,8,17)
+    l=(1,2,3,4,5,6,7,8,9)
+
+
+    2. Proszę napisać funkcję zwracającą rozstęp oraz wartość środkową parametrów przekazanych do funkcji 
+	(n wartości, lista, krotka). Na początku należy sprawdzić czy wszystkie parametry są liczbami i czy są 
+	posortowane, jeżeli nie - proszę zgłosić odpowiedni wyjątek (2p).
+
+    3. Proszę napisać funkcję obliczającą wartość całki metodą Simpsona 
+	(funkcję podcałkową, granice całkowania oraz liczbę przedziałów proszę przekazać jako parametr funkcji). 
+	Jeżeli parametry nie są poprawne proszę zgłosić odpowiedni wyjątek (2.5p).
+
+    h=(xk-xp)/(2n)
+    s=(h/3)[f0+4(f1+f3+...+f2n-1)+2(f2+f4+...+f2n-2)+f2n]
+
+    4. Proszę napisać funkcję znajdującą miejsce zerowe funkcji w określonym przedziale z zadaną dokładnością (np. 10-7) metodą bisekcji. Jeżeli funkcja nie ma miejsca zerowego w zadanym przedziale lub jest nieokreślona w jakimś punkcie proszę zgłosić wyjątek (2.5p).
+    Przykładowe funkcje:
+        x+1 [-2, 0]
+        x+1 [1, 2]
+        (x-2)*(x-2)/(x-1)-2 [0, 2]
+        (x-2)*(x-2)/(x-1)-2 [4, 6]

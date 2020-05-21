@@ -1,0 +1,11 @@
+1. Proszę zapisać plik rozszerzenia (mod.c) oraz skrypt instalacyjny (setup.py). 
+	Proszę tak zmodyfikować plik rozszerzenia, aby otrzymywany wynik był poprawny, tj. np. :
+	met(1,2)                       #3
+	met(1,2,5)                    #8
+	met(1,2,5,[2,3,4])       #17
+	(2p).
+
+2. Proszę zaimplementować w Pythonie i w C funkcję losującą współrzędne N punktów w kwadracie o boku 1. 
+	Proszę zliczyć jaki procent punktów trafia odpowiednio w kwadraty o boku [0.1, 0.2, ..., 1]. 
+	Funkcję napisaną w C proszę wywołać z programu w Pythonie. Proszę porównać wyniki oraz czasy wykonania obu 
+	funkcji w zależności od liczby punktów [102, 103, ..., 106].(4p).
